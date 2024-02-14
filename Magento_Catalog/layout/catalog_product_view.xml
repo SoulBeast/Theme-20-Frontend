@@ -1,0 +1,24 @@
+<!-- <page xmlns:xsi="http: //www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="product.info.main">
+            <block class="Magento\Framework\View\Element\Template" name="price.after.text" template="Magento_Catalog::price_after_text.phtml" />
+        </referenceContainer>
+    </body>
+</page> -->
+
+<!-- <page xmlns:xsi="http: //www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <move element="product.info.price" destination="product.info.main" />
+    </body>
+</page> -->
+
+<!-- <page xmlns:xsi="http: //www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <move element="product.info.price" destination="product.info.media" />
+</page> -->
+
+<page xmlns:xsi="http: //www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <!-- Move a price on a product page -->
+    <!-- <move element="product.info.price" destination="product.info.addtocart.additional" />
+    <move element="product.info.type" destination="product.info.main" after="product.info.price"/>
+    <referenceBlock name="product.info.configurable.catalog_inventory_stockqty_default" display="false"/>-->
+</page>

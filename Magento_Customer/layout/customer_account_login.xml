@@ -1,0 +1,12 @@
+<page xmlns:xsi="http: //www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+<!--         <referenceBlock class="Magento\Framework\View\Element\Template"
+                        name="customer.new"
+                        template="Magento_Customer::customer.phtml">
+            <arguments>
+                <argument name="text" xsi:type="string" translate="true">                
+                </argument>
+            </arguments>
+        </referenceBlock> -->
+    </body>
+</page>

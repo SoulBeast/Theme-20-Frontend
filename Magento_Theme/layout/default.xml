@@ -1,0 +1,34 @@
+<page xmlns:xsi="http: //www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="css/styles.css" />
+    </head>
+    <body>
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_file" xsi:type="string">images/phoenix.png</argument>
+                <argument name="logo_width" xsi:type="string">150</argument>
+                <argument name="logo_height" xsi:type="string">30</argument>
+            </arguments>
+        </referenceBlock>
+
+        <!-- Выводит надпись "Добро пожаловать в Perspective Team" -->
+        <!-- <referenceContainer name="top.container"> 
+            <container name="custom.container">
+                <block  name="custom.block"
+                        class="Magento\Framework\View\Element\Template"
+                        template="Magento_Theme::custom_text_template.phtml"
+                        before="-">
+                </block>
+            </container>
+        </referenceContainer> -->
+
+        <!-- Перемещает надпись "Jackets" -->
+        <!-- <move element="page.main.title" destination="content.top"/> -->
+
+        <!-- Перемещает надпись "IN STOCK" -->
+        <!-- <move element="product.info.stock"
+              destination="product.info.main"
+              before="product.info.sku"/> -->
+
+    </body>
+</page>
